@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: dataracer.io
-email: jeremy.newhouse@gmail.com
+# email: jeremy.newhouse@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  by Jeremy Newhouse
+  Copyright © 2017 dataracer.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dataracer.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jdnewhouse
