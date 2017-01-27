@@ -234,7 +234,7 @@ Create a new notebook in Jupyter (Python default) or [download](/assets/notebook
 
 {% highlight python %}
 # Source file to read
-textFile = sc.textFile("pg84.txt")
+textFile = sc.textFile("84.txt")
 {% endhighlight %}
 
 {% highlight python %}
