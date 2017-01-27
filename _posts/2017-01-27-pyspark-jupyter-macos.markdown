@@ -203,10 +203,11 @@ pyspark --master local --packages com.databricks:spark-csv_2.10:1.5.0 --executor
 {% endhighlight %}
 
 Note the following arguments used with PySpark:
-1. master local (Spark master is local)
-2. pacakges: --packages com.databricks:spark-csv_2.10:1.5.0
-3. executor-memory: 6400M
-4. driver-memory: 6400M
+
+  1. master: local (Spark master is local)
+  2. packages: --packages com.databricks:spark-csv_2.10:1.5.0
+  3. executor-memory: 6400M
+  4. driver-memory: 6400M
 
 #### 3. Start PySpark with Jupyter
 
