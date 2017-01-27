@@ -76,7 +76,7 @@ $ echo $PATH
 
 By default Homebrew analytics](https://git.io/brew-docs){:target="_blank"} now collects your usage history.
 
-Edit your ~.bash_profile:
+Edit your ~/.bash_profile:
 
 {% highlight bash %}
 export HOMEBREW_NO_ANALYTICS=1
@@ -88,7 +88,7 @@ If you use brew often you may receive an API rate limit exceeded error message. 
 
 Generate a new Github [personal access token.](https://github.com/settings/tokens){:target="_blank"}
 
-Edit your ~.bash_profile:
+Edit your ~/.bash_profile:
 
 {% highlight bash %}
 export HOMEBREW_GITHUB_API_TOKEN=<your_personal_access_token>
