@@ -50,9 +50,17 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 {% endhighlight %}
 
-#### 3. Add Homebrew to PATH environment variable
+#### 3. Verify /usr/local/bin is in the PATH environment variable
 
-Edit your ~/.bash_profile and verify /usr/local/bin is your PATH:
+{% highlight bash %}
+$ echo $PATH
+{% endhighlight %}
+
+````
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+````
+
+If not add edit your ~/.bash_profile and add /usr/local/bin to your PATH:
 
 {% highlight bash %}
 export PATH="/usr/local/bin:$PATH"
@@ -66,7 +74,7 @@ $ echo $PATH
 
 #### 4. Optionally disable Homebrew analytics
 
-By default Homebrew analytics](https://github.com/Homebrew/brew/blob/master/docs/Analytics.md){:target="_blank"} now collects your usage history.
+By default Homebrew analytics](https://git.io/brew-docs){:target="_blank"} now collects your usage history.
 
 Edit your ~.bash_profile:
 
