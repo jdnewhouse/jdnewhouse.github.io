@@ -84,20 +84,30 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 #### 1. Install Anaconda
 
-[Download](https://www.continuum.io/downloads){:target="_blank"} Anaconda for Python 3.5
+[Download](https://www.continuum.io/downloads){:target="_blank"} Anaconda 4.2.0 for OSX (Python 3.5) and install. (Graphical or Command-Line Installer)
 
 #### 2. Verify Anaconda is in PATH environment variable
 
-Verify [/your_path]/anaconda/bin was added to PATH environment variable in .bash_profile:
+Verify [/your_path]/anaconda/bin was added to PATH environment variable in ~/.bash_profile:
 
 {% highlight bash %}
 $ echo $PATH
 {% endhighlight %}
 
-If not add it your .bash_profile
+````
+[/your_path]/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+````
+
+If not add it your ~/.bash_profile
 
 {% highlight bash %}
 export PATH="[/your_path]/anaconda/bin:$PATH"
+{% endhighlight %}
+
+Restart your shell or:
+{% highlight bash %}
+$ source ~/.bash_profile
+$ echo $PATH
 {% endhighlight %}
 
 #### 3. Verify Jupyter
