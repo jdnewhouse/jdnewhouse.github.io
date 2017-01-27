@@ -122,6 +122,8 @@ Browser should have opened to [http://localhost:8888](http://localhost:8888){:ta
 
 ![jupyter](/assets/imgs/jupyter.png)
 
+Close Jupyter **(control-c)**
+
 ## Spark
 
 #### 1. Install Apache Spark
@@ -130,6 +132,11 @@ Browser should have opened to [http://localhost:8888](http://localhost:8888){:ta
 $ brew update
 $ brew install apache-spark
 {% endhighlight %}
+
+````
+...
+/usr/local/Cellar/apache-spark/2.1.0: 1,276 files, 213.2M, built in 20 seconds
+````
 
 #### 2. Test pyspark
 
@@ -158,6 +165,8 @@ SparkSession available as 'spark'.
 >>>
 ```
 
+Quit PySpark - **quit()**
+
 ## PySpark with Jupyter Notebook
 
 #### 1. Create home folder for Jupyter notebooks
@@ -175,7 +184,7 @@ $ touch /usr/local/bin/pyspark-jupyter
 $ chmod +x /usr/local/bin/pyspark-jupyter
 {% endhighlight %}
 
-Edit pyspark-jupyter file: :
+Edit /usr/local/bin/pyspark-jupyter
 
 {% highlight bash %}
 #!/usr/bin/env bash
