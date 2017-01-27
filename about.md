@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is dataracer.io by Jeremy Newhouse.
+by [Jeremy Newhouse](mailto:jeremy.newhouse@gmail.com)
+
+![portrait](/assets/imgs/jnp3.png)
