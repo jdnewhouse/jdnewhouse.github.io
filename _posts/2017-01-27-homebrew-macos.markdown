@@ -74,7 +74,7 @@ $ echo $PATH
 
 #### 4. Optionally disable Homebrew analytics
 
-By default Homebrew analytics](https://git.io/brew-docs){:target="_blank"} now collects your usage history.
+By default [Homebrew analytics](https://git.io/brew-docs){:target="_blank"} now collects your usage history.
 
 Edit your ~/.bash_profile:
 
