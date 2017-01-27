@@ -4,7 +4,7 @@ title:  "Oracle JDK on macOS Sierra"
 date:   2017-01-27 00:00:00 -0600
 categories: docs
 ---
-#### A guide for installing the [Oracle JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html){:target="_blank"} on macOS Sierra.  
+#### A guide for installing the [Oracle JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html){:target="_blank"} on macOS Sierra.
 
 | Software         | Versions                       |
 | :--------------- | :----------------------------- |
@@ -18,11 +18,17 @@ categories: docs
 
 #### 2. Set JAVA_HOME environment variable
 
-Add JAVA_HOME to your .bash_profile:
+Add JAVA_HOME to your ~.bash_profile:
 
 {% highlight bash %}
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 {% endhighlight %}
+
+Restart your shell or:
+{% highlight bash %}
+$ source ~/.bash_profile
+{% endhighlight %}
+
 
 #### 3. Test Java
 

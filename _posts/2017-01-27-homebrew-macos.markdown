@@ -47,10 +47,16 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 
 #### 3. Add Homebrew to PATH environment variable
 
-Edit your ~/.bash_profile:
+Edit your ~/.bash_profile and verify /usr/local/bin is your PATH:
 
 {% highlight bash %}
 export PATH="/usr/local/bin:$PATH"
+{% endhighlight %}
+
+Restart your shell or:
+{% highlight bash %}
+$ source ~/.bash_profile
+$ echo $PATH
 {% endhighlight %}
 
 #### 4. Optionally disable Homebrew analytics
