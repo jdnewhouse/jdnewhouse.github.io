@@ -228,9 +228,9 @@ $ pyspark-jupyter
 ```
 #### 4. Test PySpark with Jupyter
 
-[Download Frankenstein](https://www.gutenberg.org/ebooks/84.txt.utf-8) or any book of choice and save if to your ~/notebooks folder.
+[Download Frankenstein](https://www.gutenberg.org/ebooks/){:target="_blank"} or any book of choice and save if to your ~/notebooks folder.
 
-Create a new notebook in Jupyter (Python default) or [download](/assets/notebooks/pyspark_test.ipynb) this example.
+Create a new notebook in Jupyter (Python default) or [download](/assets/notebooks/pyspark_test.ipynb){:target="_blank"} this example.
 
 {% highlight python %}
 # Source file to read
