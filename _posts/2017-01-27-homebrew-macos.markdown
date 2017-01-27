@@ -10,6 +10,7 @@ categories: docs
 | :--------------- | :----------------------------- |
 | macOS            | **10.12.3**                    |
 | Xcode            | **8.2.1**                      |
+| Homebrew         | **1.1.8**                      |
 
 #### 1. Install Command Line Tools for Xcode
 
@@ -24,6 +25,10 @@ There are three options to install the command line tools for XCode:
 {% highlight bash %}
 $ xcode-select --install
 {% endhighlight %}
+
+```
+xcode-select: note: install requested for command line developer tools
+```
 
 Verify gcc
 
