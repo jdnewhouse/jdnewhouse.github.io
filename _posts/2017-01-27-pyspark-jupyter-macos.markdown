@@ -165,7 +165,12 @@ SparkSession available as 'spark'.
 >>>
 ```
 
-Quit PySpark - **quit()**
+Quit PySpark  
+
+{% highlight bash %}
+>>> quit()
+{% endhighlight %}
+
 
 ## PySpark with Jupyter Notebook
 
